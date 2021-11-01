@@ -1,0 +1,24 @@
+[
+      {
+            "id": 1,
+            "title": "Tacos de birria",
+            "description": "Tortilla a base de harina de maíz, relleno de carde birria de res y queso mozzarela.",
+            "price": 3000,
+            "imgUrl": "https://cdn.shopify.com/s/files/1/1750/5047/products/Taco-Grid-Goat-Birria.11f2bbd0_1200x.png?v=1587567665"
+            
+      },
+      {
+            "id": 2,
+            "title": "Quesabirria",
+            "description": "Tortilla de trigo, relleno de carne birria de res, queso mozzarella, cebolla morada y cilantro.",
+            "price": 4000,
+            "imgUrl": "https://birrieriatijuana.com/wp-content/uploads/2021/07/quesadilla.png"
+      },
+      {
+            "id": 3,
+            "title": "Chilaquiles",
+            "description": "Incluye: totopos, salsa roja, queso, especias y la proteína de su preferencia, pollo o huevo.",
+            "price": 4000,
+            "imgUrl": "https://gringoraleigh.com/wp-content/uploads/2020/06/FISH-TACOS-600x600.png"
+      }
+]

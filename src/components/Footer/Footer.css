@@ -1,0 +1,11 @@
+.footer {
+      height: 100px;
+
+      background: var(--dark-red-bg);
+      color: #fff;
+      text-align: center;
+}
+
+.footer * {
+      
+}
