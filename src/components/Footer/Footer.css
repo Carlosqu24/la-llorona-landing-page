@@ -3,9 +3,8 @@
 
       background: var(--dark-red-bg);
       color: #fff;
-      text-align: center;
-}
-
-.footer * {
       
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }

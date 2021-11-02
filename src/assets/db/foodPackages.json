@@ -1,0 +1,38 @@
+[
+      {
+            "id": 1,
+            "name": "Three pack",
+            "quantity": "3 tacos",
+            "price": "3,000.00"
+      },
+      {
+            "id": 2,
+            "name": "Four pack",
+            "quantity": "4 tacos",
+            "price": "4,000.00"
+      },
+      {
+            "id": 3,
+            "name": "Pack individual",
+            "quantity": "6 tacos",
+            "price": "5,500.00"
+      },
+      {
+            "id": 4,
+            "name": "Pack pareja",
+            "quantity": "8 tacos",
+            "price": "7,500.00"
+      },
+      {
+            "id": 5,
+            "name": "Pack familiar",
+            "quantity": "12 tacos",
+            "price": "10,500.00"
+      },
+      {
+            "id": 6,
+            "name": "Súper pack",
+            "quantity": "15 tacos",
+            "price": "13,500.00"
+      }
+]

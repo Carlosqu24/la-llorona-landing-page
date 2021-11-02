@@ -18,7 +18,7 @@ export const Contact = () => {
                                     </div>
 
                                     <div className="form-group">
-                                          <input type="text" className="form-control" placeholder="Ingrese su mensaje"/>
+                                          <textarea className="form-control" placeholder="Ingrese su mensaje"></textarea>
                                     </div>
 
                                     <input type="submit" className="form-control form-control--submit" value="Enviar"/>
@@ -28,25 +28,30 @@ export const Contact = () => {
                         <div className="right">
                               <div className="group">
                                     <div className="group__title">Dirección</div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cupiditate!</p>
+                                    <p className="group__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cupiditate!</p>
                               </div>
 
                               <div className="group">
                                     <div className="group__title">Horario</div>
-                                    <p>Martes - Domingo: 11:00 a.m. - 9:00 p.m.</p>
+                                    <p className="group__description">Martes - Domingo: 11:00 a.m. - 9:00 p.m.</p>
                               </div>
 
                               <div className="group">
-                                    <div className="group__title">Síguenos</div>
+                                    <div className="group__title">Número de teléfono</div>
+                                    <p className="group__description">+506 8947-1787</p>
+                              </div>
+
+                              <div className="group">
+                                    <div className="group__title">Redes sociales</div>
                                     <div className="social-links">
                                           <a href="https://www.facebook.com/La-Llorona-107057418438703">
-                                          <i class='bx bxl-facebook bx-sm'></i>
+                                          <i class='bx bxl-facebook'></i>
                                           </a>
                                           <a href="https://www.instagram.com/__lallorona/" target="_blank">
-                                          <i class='bx bxl-instagram bx-sm' ></i>
+                                          <i class='bx bxl-instagram' ></i>
                                           </a>
                                           <a href="">
-                                          <i class='bx bxl-tiktok bx-sm' ></i>
+                                          <i class='bx bxl-tiktok' ></i>
                                           </a>
                                     </div>
                               </div>

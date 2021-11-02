@@ -6,9 +6,10 @@ import foodsDb from '../../assets/db/foods.json';
 
 export const Foods = () => {
       return (
-            <div id="foods" className="foods">
+            <div id="menu" className="foods">
+                  <h2 className="foods__title">Menú</h2>
+                  
                   <div className="container">
-                        <h2 className="foods__title">Comidas</h2>
                         <div className="foods-flex">
                               {
                                     foodsDb.map(food => (

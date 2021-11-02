@@ -1,0 +1,55 @@
+.food-packages {
+      padding: 50px 0 100px 0;
+}
+
+.food-packages__title {
+      padding: 50px 0;
+
+      font-size: 50px;
+      text-align: center;
+}
+
+.food-packages-grid {
+      width: 100%;
+      
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      gap: 2rem;
+}
+
+.pack {
+      padding: 1rem;
+
+      text-align: center;
+
+      /* background: var(--dark-green); */
+      color: rgb(0, 0, 0);
+
+      border-bottom: 1px dashed var(--dark-green);
+
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+}
+
+
+.pack__left {
+      text-align: left;
+}
+
+.pack__quantity {
+      padding: 6px;
+      border-radius: 8px;
+
+      background: var(--dark-green);
+      color: #fff;
+
+      font-size: 20px;
+      font-weight: bold;
+}
+
+.pack__price {
+      font-size: 30px;
+      font-weight: bold;
+      color: var(--dark-green);
+}

@@ -15,7 +15,7 @@ export const Header = () => {
                               </li>
 
                               <li className="navbar__item">
-                                    <a href="#foods" className="navbar__link">Comidas</a>
+                                    <a href="#menu" className="navbar__link">Menú</a>
                               </li>
 
                               <li className="navbar__item">

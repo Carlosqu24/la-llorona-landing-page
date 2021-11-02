@@ -1,5 +1,5 @@
 .foods {
-      height: 100vh;
+      padding: 50px 0 100px 0;
 
       background: var(--dark-red-bg);
       color: #fff;
@@ -15,6 +15,8 @@
 }
 
 .foods__title {
+      padding: 50px 0;
+
       font-size: 50px;
       text-align: center;
 }
@@ -30,14 +32,14 @@
 
 .food-card {
       margin: 10px 0;
+      padding: 20px;
 
-      background: rgba(0, 0, 0, 0);
       text-align: center;
 
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
 }
 
 .food-card__img {
@@ -49,19 +51,29 @@
 .food-card__body {
       padding: 0 1rem;
 
-      text-align: justify;
+      text-align: center;
+}
+
+.food-card__body * {
+      margin: 15px 0;
 }
 
 .food-card__title {
-      font-size: 30px;
+      font-size: 38px;
 }
 
 .food-card__description {
+      font-size: 22px;
       font-size: 20px;
       /* text-align: justify; */
 }
 
 .food-card__price {
-      font-size: 20px;
+      padding: 8px;
+
+      background: #000;
+
+      font-size: 26px;
+      font-weight: 600;
 }
 

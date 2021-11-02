@@ -5,7 +5,7 @@ import './Footer.css'
 export const Footer = () => {
       return (
             <footer className="footer">
-                  <h2>Footer</h2>
+                  <h2>©lallorona.com 2022 – Todos los derechos reservados</h2>
             </footer>
       )
 }
