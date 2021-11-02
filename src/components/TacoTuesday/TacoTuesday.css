@@ -1,0 +1,26 @@
+.taco-tuesday {
+      height: 100vh;
+
+      background: var(--yellow);
+}
+
+.taco-tuesday__title {
+      padding: 50px 0;
+
+      font-size: 50px;
+      text-align: center;
+}
+
+.taco-tuesday .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.card__title {
+      font-size: 65px;
+}
+
+.card__text {
+      font-size: 25px;
+}
