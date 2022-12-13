@@ -24,7 +24,7 @@ export const Header = () => {
                               xmlns="http://www.w3.org/2000/svg"
                               style={{
                                     position: 'absolute',
-                                    display: window.innerWidth <= 1200 ? 'inline' : 'none',
+                                    display: window.innerWidth <= 1200 && displaysBurgerMenu ? 'inline' : 'none',
                                     left: '75%',
                                     padding: '8px',
                                     zIndex: '123123',
