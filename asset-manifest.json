@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/la-llorona-landing-page/static/css/main.c88cb646.chunk.css",
+    "main.js": "/la-llorona-landing-page/static/js/main.ef0185a9.chunk.js",
+    "main.js.map": "/la-llorona-landing-page/static/js/main.ef0185a9.chunk.js.map",
+    "runtime-main.js": "/la-llorona-landing-page/static/js/runtime-main.806e1772.js",
+    "runtime-main.js.map": "/la-llorona-landing-page/static/js/runtime-main.806e1772.js.map",
+    "static/js/2.c09f2a34.chunk.js": "/la-llorona-landing-page/static/js/2.c09f2a34.chunk.js",
+    "static/js/2.c09f2a34.chunk.js.map": "/la-llorona-landing-page/static/js/2.c09f2a34.chunk.js.map",
+    "index.html": "/la-llorona-landing-page/index.html",
+    "static/css/main.c88cb646.chunk.css.map": "/la-llorona-landing-page/static/css/main.c88cb646.chunk.css.map",
+    "static/js/2.c09f2a34.chunk.js.LICENSE.txt": "/la-llorona-landing-page/static/js/2.c09f2a34.chunk.js.LICENSE.txt",
+    "static/media/hero-img.4443bc47.png": "/la-llorona-landing-page/static/media/hero-img.4443bc47.png",
+    "static/media/hero-img2.975d3f66.png": "/la-llorona-landing-page/static/media/hero-img2.975d3f66.png",
+    "static/media/hero-img3.8579a815.png": "/la-llorona-landing-page/static/media/hero-img3.8579a815.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.806e1772.js",
+    "static/js/2.c09f2a34.chunk.js",
+    "static/css/main.c88cb646.chunk.css",
+    "static/js/main.ef0185a9.chunk.js"
+  ]
+}
