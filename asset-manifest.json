@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/la-llorona-landing-page/static/css/main.c88cb646.chunk.css",
-    "main.js": "/la-llorona-landing-page/static/js/main.ef0185a9.chunk.js",
-    "main.js.map": "/la-llorona-landing-page/static/js/main.ef0185a9.chunk.js.map",
+    "main.js": "/la-llorona-landing-page/static/js/main.47d16f6a.chunk.js",
+    "main.js.map": "/la-llorona-landing-page/static/js/main.47d16f6a.chunk.js.map",
     "runtime-main.js": "/la-llorona-landing-page/static/js/runtime-main.806e1772.js",
     "runtime-main.js.map": "/la-llorona-landing-page/static/js/runtime-main.806e1772.js.map",
     "static/js/2.c09f2a34.chunk.js": "/la-llorona-landing-page/static/js/2.c09f2a34.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.806e1772.js",
     "static/js/2.c09f2a34.chunk.js",
     "static/css/main.c88cb646.chunk.css",
-    "static/js/main.ef0185a9.chunk.js"
+    "static/js/main.47d16f6a.chunk.js"
   ]
 }
