@@ -24,7 +24,7 @@ export const Header = () => {
                               xmlns="http://www.w3.org/2000/svg"
                               style={{
                                     position: 'absolute',
-                                    display: displaysBurgerMenu || window.innerWidth >= 1200 ? 'inline' : 'none',
+                                    display: window.innerWidth <= 1200 ? 'inline' : 'none',
                                     left: '75%',
                                     padding: '8px',
                                     zIndex: '123123',
@@ -50,31 +50,20 @@ export const Header = () => {
                               }
                         </ul>
 
-
                         <svg 
-                              width="60px" 
-                              height="60px" 
-                              viewBox="0 0 72 72" 
-                              id="emoji" 
-                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 12 12" 
+                              enable-background="new 0 0 12 12" 
+                              id="Слой_1" 
+                              version="1.1" 
+                              xmlns="http://www.w3.org/2000/svg" 
+                              width="35px" 
+                              height="45px" 
                               className='burger-menu-button'
                               style={{
-                                    display: displaysBurgerMenu ? 'none' : 'inline',
+                                    display: window.innerWidth >= 1200 ? 'none' : 'inline',
                               }}
                               onClick={toggleBurgerButton}
-                        >
-                              <g id="color"/>
-                              <g id="hair"/>
-                              <g id="skin"/>
-                              <g id="skin-shadow"/>
-                              <g id="line">
-                              <line x1="16" x2="56" y1="26" y2="26" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-                              <line x1="16" x2="56" y1="36" y2="36" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-                              <line x1="16" x2="56" y1="46" y2="46" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-                              </g>
-                        </svg>
-
-                        
+                        ><g><rect fill="#1D1D1B" height="1" width="11" x="0.5" y="5.5"/><rect fill="#1D1D1B" height="1" width="11" x="0.5" y="2.5"/><rect fill="#1D1D1B" height="1" width="11" x="0.5" y="8.5"/></g></svg>       
                   </div>
             </header>
       )
