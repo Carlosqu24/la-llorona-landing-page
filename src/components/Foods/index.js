@@ -7,7 +7,7 @@ import foodsDb from '../../assets/db/foods.json';
 export const Foods = () => {
       return (
             <div id="menu" className="foods">
-                  <h2 className="foods__title">Menú</h2>
+                  <h2 className="foods__title">Platillos destacados</h2>
                   
                   <div className="container">
                         <div className="foods-flex">

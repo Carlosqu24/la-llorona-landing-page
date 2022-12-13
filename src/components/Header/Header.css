@@ -40,6 +40,10 @@
       display: none;
 }
 
+.burger-menu-button {
+      display: none;
+}
+
 @media (max-width: 1200px) {
       .header {
             padding: 16px;
@@ -63,5 +67,9 @@
 
       .navbar__link {
             color: #fff;
+      }
+
+      .burger-menu-button {
+            display: inline;
       }
 }

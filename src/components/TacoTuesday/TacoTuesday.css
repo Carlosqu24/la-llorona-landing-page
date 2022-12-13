@@ -1,5 +1,5 @@
 .taco-tuesday {
-      height: 100vh;
+      min-height: 100vh;
 
       background: var(--yellow);
 }
@@ -17,6 +17,10 @@
       justify-content: space-between;
 }
 
+.taco-tuesday .container * {
+      margin-bottom: 50px;
+}
+
 .card__title {
       font-size: 65px;
 }
@@ -24,3 +28,15 @@
 .card__text {
       font-size: 25px;
 }
+
+@media (max-width: 1200px) {
+
+      .taco-tuesday .container {
+            flex-direction: column;
+      }
+
+      .taco-tuesday img {
+            width: 300px;
+      }
+}
+
